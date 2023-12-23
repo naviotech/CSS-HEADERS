@@ -14,7 +14,7 @@ Utiliza la extensión "Go Live" en Visual Studio Code o cualquier otro método p
 Ten en cuenta que los headers no son completamente responsivos. Consulta el README de cada header para conocer el tamaño de pantalla en píxeles recomendado para una visualización correcta.
 
 ## Como adaptar los pixeles de tu pantalla al abrir el proyecto
- 1. Visualiza el Proyecto con "Go Live":
+1. Visualiza el Proyecto con "Go Live":
     Inicia el servidor local utilizando la extensión "Go Live" en Visual Studio Code o la herramienta que prefieras.
     Abre el proyecto en tu navegador web.
 2. Ajusta el tamaño de la ventana del navegador:
@@ -30,3 +30,19 @@ Ten en cuenta que los headers no son completamente responsivos. Consulta el READ
 
 ## Entorno de Desarrollo:
 Este proyecto ya se encuentra compilado, por lo que no es necesario instalar dependencias ni ejecutar comandos de compilación. Simplemente utiliza "Go Live" para visualizar el proyecto en tu navegador.
+
+## Contribuciones
+¡Las contribuciones son bienvenidas! Si tienes ideas para nuevos estilos de encabezados, mejoras o correcciones, sigue estos pasos:
+
+1. Haz un fork del proyecto.
+2. Crea una nueva rama.
+3. Haz commit de tus cambios.
+4. Haz push a la rama.
+5. Abre un Pull Request.
+
+## Licencia
+Este proyecto está bajo Licencia. Ver el archivo LICENSE para más detalles.
+
+
+
+¡Gracias por visitar mi proyecto!
