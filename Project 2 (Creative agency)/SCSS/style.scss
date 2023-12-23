@@ -1,0 +1,104 @@
+$fondo-principal: #515DEF;
+$color-fuente: #FBFBFB;
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: $fondo-principal;
+    color: $color-fuente;
+    background-image: url(/img/image-fondo.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1377px;
+    min-width: 1377px;
+}
+.principal{
+    margin-left: 120px;
+    margin-right: 120px;
+    color: $color-fuente;
+}
+header{
+    display: flex;
+    margin-top: 30px;
+    div{
+        display: flex;
+        align-items: center;
+    }
+    img{
+        width: 60px;
+        height: auto;
+    }
+    nav{
+        width: 100%;
+    }
+    ul{
+        margin-left: 100px;
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        padding: 0%;
+        align-items: center;
+        a{
+            text-decoration: none;
+            color: $color-fuente
+        }
+        .contact{
+            margin-left: auto;
+            background-color: $fondo-principal;
+            padding: 10px 20px;
+        }
+    }
+}
+.inicio{
+    width: 50%;
+    list-style: none;
+    h1{
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 1.2;
+        margin-top:20px ;
+        margin-bottom: 20px;
+    }
+    p{
+        margin-top: 30px;
+    }
+    .text{
+        font-size: 15px;
+    }
+
+    a{
+        text-decoration: none;
+        margin-top: 40px;
+        color:black;
+        width: 180px;
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        background-color: #FBFBFB;
+        img{
+            display: block;
+        }
+    }
+}
+.projects{
+    display: flex;
+    background-color: #FBFBFB;
+    color: black;
+    margin-top: 50px;
+    padding: 30px 100px;
+    gap:50px;
+    position: absolute;
+    left: 0%;
+    width: 50%;
+    article{
+        line-height: 1.2;
+        h2{
+            font-size:20px;
+        }
+    }
+    article:last-child{
+        min-width: 160px;
+    }
+}

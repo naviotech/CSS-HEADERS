@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"><!--Para que sepa la codificacion que tiene que utilizar-->
+    <title>Mi pagina web</title><!--Es el titulo que aparece en la pestaña de nuestra web-->
+    <meta name="description" content="Mi pagina web de prueba para empezar con
+    desarrollo frontend"><!--Esta es la descripcion de nuestra web que aparecera en el buscador como introduccion del contenido de nuestra web-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--Se utiliza para que el ancho del contenido sea el ancho de la pantalla del navegador-->
+  
+    <meta name="theme-color" content="#fafafa"> <!--Esto es para cambiar el color de arriba de las pestañas predeterminado del navegador-->
+  
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+  
+    <link rel="canonical" href="tupaginaweb"><!--Sirve para indicar al buscador cual es la pagina principal-->
+  
+    <link rel="icon" type="image/png" href="img/logo.png" ><!--Para añadir foto(favicon) logo de nuestra web-->
+  
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css"><!--Para añadir los estilos css del fichero style creado-->
+  
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <figure>
+        <img class="logo" src="img/logo.png">
+      </figure>
+      <nav>
+        <ul class="first">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Sales</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="second">
+          <li><a href="#"><img src="img/Shopping Bag.svg"></a></li>
+          <li><a href="#" class="in">Sign in</a></li>
+          <li><a href="#" class="up">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="principal">
+        <h1>Let your <span>groceries</span> come to you</h1>
+        <p>Get fresh groceries online without stepping out to make delicious food with the freshest ingredients</p>
+        <form action="/buscador/" method="get" name="buscador">
+          <label for="Search"></label>
+          <input type="search" id="Search" name="b" placeholder="Search here">
+          <button><img src="img/lupa.svg"></button>
+        </form>
+        <div>
+          <div class="check"><figure><img src="img/Check.svg"><p>Fresh Vegetables</p></div>
+          <div class="check"><figure><img src="img/Check.svg"><p>100% Guarantee</p></div>
+          <div class="check"><figure><img src="img/Check.svg"><p>Cash on Delivery</p></div>
+          <div class="check"><figure><img src="img/Check.svg"><p>Fast Delivery</p></div>
+        </div>
+      </section>
+      <section class="foods">
+        <article class="artic">
+          <img src="img/products.svg">
+          <h2>Dairy Products</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+        <article class="artic">
+          <img src="img/Fruits.svg">
+          <h2>Vegetables & Fruits</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+        <article class="artic">
+          <img src="img/spices.svg">
+          <h2>Spices & Seasonings</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+        <article class="artic">
+          <img src="img/honey.svg">
+          <h2>Honey</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+        <article class="artic">
+          <img src="img/food.svg"> 
+          <h2>Flour</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+      </section>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
+
+
+

@@ -1,0 +1,40 @@
+header{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    img{
+        width: 60px;
+        height: auto;
+    }
+    nav{
+        width: 100%;
+    }
+    ul{
+        display:flex;
+        list-style: none;
+        gap:40px;
+        margin-left: 70px;
+        a{
+            text-decoration: none;
+            white-space: nowrap;
+            color: black;
+            font-size: 10px;
+        }
+        .space{
+            a{
+                color:white;
+            }
+            margin-left:auto;
+        }
+        .red{
+            a{
+                background-color: #FA504D;
+                color:white;
+                padding: 5px 20px ;
+            }
+            
+        }
+
+    }
+
+}

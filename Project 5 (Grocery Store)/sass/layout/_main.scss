@@ -1,0 +1,78 @@
+main{
+    width: 100%;
+    margin-right: 100px;
+    .principal{
+        margin-top: 100px;
+        width: 40%;
+        h1{
+            font-family: $montserrat-font;
+            font-size: 62px;
+            line-height: 90px;
+            span{
+                color:#F38160;
+            }
+        }
+        p{
+            width: 80%;
+            color: #949494;
+            font-size: 20px;
+            margin-top: 20px;
+            line-height: 35px;
+        }
+        form{
+            margin-top: 40px;
+            display: flex;
+            input{
+                padding-left: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 160px;
+                background-color: #F3F3F4;
+                border:none;
+                border-bottom-left-radius: 10px;
+                border-top-left-radius: 10px;
+
+            }
+            button{
+                background-color: #F38160;
+                padding: 10px 15px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                border: none;
+            }
+        }
+        div{
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 25% 25%;
+            width: 70%;
+            .check{
+                white-space: nowrap;
+                align-items:baseline;
+                p{
+                    margin-top: 0px;
+                }
+                figure{
+                    display: flex;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+    .foods{
+        margin-top: 80px;
+        margin-right: 100px;
+        display: flex;
+        .artic{
+            h2{
+                margin-top: 20px;
+                font-weight: 500;
+            }
+            p{
+                margin-top: 20px;
+                color: #949494;
+            }
+        }
+    }
+}

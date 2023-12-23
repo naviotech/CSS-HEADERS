@@ -1,0 +1,22 @@
+@import './abstracts/abstracts';
+@import './vendors/vendors';
+@import './base/base';
+@import './components/components';
+@import './layout/layout';
+@import './pages/pages';
+@import './themes/themes';
+@import 'settings';
+
+body{
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: $poppins-font;
+    background-image: url("../img/persona1.png");
+    background-repeat: no-repeat;
+    background-position: right -15px top 60px;
+    max-width: 1400px;
+    min-width: 1400px;
+}

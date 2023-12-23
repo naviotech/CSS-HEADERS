@@ -1,0 +1,104 @@
+body {
+  width: 100%;
+  background-color: #515DEF;
+  color: #FBFBFB;
+  background-image: url(/img/image-fondo.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 45%;
+  font-family: "Poppins", sans-serif;
+  max-width: 1377px;
+  min-width: 1377px;
+}
+
+.principal {
+  margin-left: 120px;
+  margin-right: 120px;
+  color: #FBFBFB;
+  
+}
+
+header {
+  display: flex;
+  margin-top: 30px;
+}
+header div {
+  display: flex;
+  align-items: center;
+}
+header img {
+  width: 60px;
+  height: auto;
+}
+header nav {
+  width: 100%;
+}
+header ul {
+  margin-left: 100px;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0%;
+  align-items: center;
+}
+header ul a {
+  text-decoration: none;
+  color: #FBFBFB;
+}
+header ul .contact {
+  margin-left: auto;
+  background-color: #515DEF;
+  padding: 10px 20px;
+}
+
+.inicio {
+  width: 50%;
+  list-style: none;
+}
+.inicio h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.inicio p {
+  margin-top: 30px;
+}
+.inicio .text {
+  font-size: 15px;
+}
+.inicio a {
+  text-decoration: none;
+  margin-top: 40px;
+  color: black;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: #FBFBFB;
+}
+.inicio a img {
+  display: block;
+}
+
+.projects {
+  display: flex;
+  background-color: #FBFBFB;
+  color: black;
+  margin-top: 50px;
+  padding: 30px 100px;
+  gap: 50px;
+  position: absolute;
+  left: 0%;
+  width: 50%;
+}
+.projects article {
+  line-height: 1.2;
+}
+.projects article h2 {
+  font-size: 20px;
+}
+.projects article:last-child {
+  min-width: 160px;
+}/*# sourceMappingURL=style.css.map */

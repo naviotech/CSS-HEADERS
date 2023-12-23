@@ -1,0 +1,37 @@
+@import './abstracts/abstracts';
+@import './vendors/vendors';
+@import './base/base';
+@import './components/components';
+@import './layout/layout';
+@import './pages/pages';
+@import './themes/themes';
+@import 'settings';
+
+body{
+    position: relative;
+    width: 100%;
+    height:10rem;
+    background-image: url("../img/fondo.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    max-width: 1043px;
+    min-width: 1043px;
+    .fondo{
+        position:absolute;
+        z-index: -2;
+        opacity: 10%;
+        transform: rotate(90deg);
+        font-size: 150px;
+        color: #FFFFFF;
+        font-family: 'Belgrano', serif;
+        margin: 0%;
+        top:200px;
+        right: -180px;
+    }
+}
+.principal{
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
