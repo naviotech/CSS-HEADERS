@@ -19,6 +19,11 @@ Ten en cuenta que los headers no son completamente responsivos. Consulta el READ
     Abre el proyecto en tu navegador web.
 2. Ajusta el tamaño de la ventana del navegador:
    Una vez en el navegador web, hacer "click" en el botón derecho del ratón y escoger la opción de "inspeccionar".
+   
+   <img src="https://github.com/Mayadevv/CSS-HEADERS/blob/main/example.png">
+
+3. Seleccionamos e introducimos el tamaño recomendado del header en la pestaña marcada:
+   
 
 ## Entorno de Desarrollo:
 Este proyecto ya se encuentra compilado, por lo que no es necesario instalar dependencias ni ejecutar comandos de compilación. Simplemente utiliza "Go Live" para visualizar el proyecto en tu navegador.
