@@ -23,7 +23,10 @@ Ten en cuenta que los headers no son completamente responsivos. Consulta el READ
    <img src="https://github.com/Mayadevv/CSS-HEADERS/blob/main/example.png">
 
 3. Seleccionamos e introducimos el tamaño recomendado del header en la pestaña marcada:
-   
+
+   <img src="https://github.com/Mayadevv/CSS-HEADERS/blob/main/px.jpg">
+
+4. Y por ultimo el header se adaptara al recuadro de la pagina automaticamente para ser visualizado!
 
 ## Entorno de Desarrollo:
 Este proyecto ya se encuentra compilado, por lo que no es necesario instalar dependencias ni ejecutar comandos de compilación. Simplemente utiliza "Go Live" para visualizar el proyecto en tu navegador.
