@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"><!--Para que sepa la codificacion que tiene que utilizar-->
+    <title>Mi pagina web</title><!--Es el titulo que aparece en la pestaña de nuestra web-->
+    <meta name="description" content="Mi pagina web de prueba para empezar con
+    desarrollo frontend"><!--Esta es la descripcion de nuestra web que aparecera en el buscador como introduccion del contenido de nuestra web-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--Se utiliza para que el ancho del contenido sea el ancho de la pantalla del navegador-->
+  
+    <meta name="theme-color" content="#fafafa"> <!--Esto es para cambiar el color de arriba de las pestañas predeterminado del navegador-->
+  
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+  
+    <link rel="canonical" href="tupaginaweb"><!--Sirve para indicar al buscador cual es la pagina principal-->
+  
+    <link rel="icon" type="image/png" href="img/logo.png" ><!--Para añadir foto(favicon) logo de nuestra web-->
+  
+    
+    <link rel="stylesheet" href="css/style.css"><!--Para añadir los estilos css del fichero style creado-->
+  
+    <link rel="manifest" href="site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <figure class="woman"><img src="img/woman.png"></figure>
+    <section class="container">
+      <header class="head">
+        <figure class="head__first">
+          <a href="#"><img src="img/logo.svg"></a>
+        </figure>
+        <nav>
+          <ul class="head__second">
+            <li><a class="prim" href="#">Home</a></li>
+            <li><a class="prim" href="#">About</a></li>
+            <li><a class="prim" href="#">Services</a></li>
+            <li><a class="prim" href="#">Facilities</a></li>
+            <li><a class="more" href="#">More <img src="img/flecha.svg"></a>
+              <ul class="more__desplegable">
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+                <li><a href="#">Option 3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <ul class="head__third"> 
+          <li><a class ="search" href="#">
+            <form action="/buscador/" method="get" name="buscador">
+              <label for="Search"></label>
+              <input type="search" id="Search" name="b" placeholder="Search">
+            </form><img src="img/search.svg"></a></li>
+          <li><a href="#"><img src="img/bag.svg"></a></li>
+        </ul>
+        <ul class="head__fourth">
+          <li><a class="in" href="#">Sign In</a></li>
+          <li><a class="up" href="#">Sign Up</a></li>
+        </ul>
+      </header>
+      <main>
+        <section class="hero">
+          <h1>Bring back the beauty and glow of your skin</h1>
+          <p>
+            We provide you various treatments from head to toe using the best 
+            product, advanced technology, and affordable price
+          </p>
+          <div>
+            <a class="button" href="#">Book Now</a> 
+            <a class="play" href="#"><img src="img/play.svg"> Watch Video</a>
+          </div>
+        </section>
+        <section class="numbers">
+          <article>
+            <figure><img src="img/face.svg"></figure>
+            <p>15+</p>
+            <h3>Special Treatment</h3>
+          </article>
+          <article>
+            <figure><img src="img/lotus.svg"></figure>
+            <p>25+</p>
+            <h3>Professional Therapist</h3>
+          </article>
+          <article>
+            <figure><img src="img/cuenco.svg"></figure>
+            <p>100%</p>
+            <h3>Herbal Cream Formula</h3>
+          </article>
+        </section>
+        <section class="reseñas">
+          <article class="reseñas__first">
+            <img src="img/comillas.svg">
+            <p>I have a regular schedule to take treatment from GlowQueen, 
+              they gave me the best service and treatment ever to maintain the beauty 
+              and health of my skin
+            </p>
+            <h3>Sophia Princeton</h3>
+          </article>
+          <article class="reseñas__second">
+            <img src="img/comillas.svg">
+            <p>For the past few years, I've had a hard time finding the 
+              right place for skin care to deal with my complicated skin condition, 
+              thank God I found GlowQueen to treat my skin
+            </p>
+            <h3>Tamara Jules</h3>
+          </article>
+        </section>
+      </main>
+    </section>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
+
+
+
