@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 25%;
+  margin-bottom: 90px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 56px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+  white-space: nowrap;
+}
+header nav ul li a:hover {
+  color: #DC0155;
+}
+
+main {
+  color: #333333;
+}
+main .hero {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+main .hero .introduction p {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+main .hero .introduction h1 {
+  font-size: 100px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  line-height: 100px;
+  color: #333333;
+  margin-bottom: 18px;
+}
+main .hero .introduction h1 span {
+  color: #DC0155;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+}
+main .hero .introduction .inside {
+  color: #333333;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+main .hero .introduction a {
+  text-decoration: none;
+  padding: 16px 26px;
+  border-radius: 32px;
+  background-color: #DC0155;
+  color: #F4F3F8;
+  font-size: 18px;
+}
+main .hero .introduction a:hover {
+  background-color: rgba(220, 1, 85, 0.5137254902);
+}
+main .hero .woman {
+  position: relative;
+}
+main .hero .woman figure img {
+  width: 100%;
+  filter: drop-shadow(150px 200px 150px rgba(220, 1, 85, 0.3529411765));
+}
+main .hero .woman .content__one {
+  width: 30%;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: -6px 13px 20px 8px rgba(0, 0, 0, 0.168627451);
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  z-index: 2;
+  background-color: white;
+  border-radius: 24px;
+}
+main .hero .woman .content__one .image {
+  padding: 8px;
+  background-color: #DC0155;
+  border-radius: 18px;
+}
+main .hero .woman .content__one .contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+main .hero .woman .content__two {
+  width: 45%;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0px 19px 20px 6px rgba(0, 0, 0, 0.0705882353);
+  position: absolute;
+  bottom: -3%;
+  right: 0%;
+  border-radius: 24px;
+  background-color: white;
+}
+main .hero .woman .content__two .image {
+  padding: 8px;
+  background-color: #DC0155;
+  border-radius: 18px;
+}
+main .hero .woman .content__two .contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+main .hero .woman .content__two .contenido h3 {
+  white-space: nowrap;
+}
+main .hero .woman .content__three {
+  width: 30%;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.3098039216);
+  position: absolute;
+  top: 30%;
+  right: -10%;
+  border-radius: 24px;
+  background-color: white;
+}
+main .hero .woman .content__three .image {
+  padding: 8px;
+  background-color: #DC0155;
+  border-radius: 18px;
+}
+main .hero .woman .content__three .contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+main .services {
+  width: 70%;
+}
+main .services h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  margin-bottom: 45px;
+  font-weight: normal;
+}
+main .services section {
+  display: flex;
+}
+main .services section article img {
+  margin-bottom: 20px;
+}
+main .services section article p {
+  margin-top: 8px;
+  color: #909090;
+}
+
+html * {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  padding: 33px 120px;
+  width: 100%;
+  background-image: url(../../img/Ellipse.png);
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=style.css.map */

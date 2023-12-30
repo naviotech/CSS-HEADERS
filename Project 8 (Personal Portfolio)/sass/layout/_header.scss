@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap:25%;
+    margin-bottom: 90px;
+    nav{
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 56px;
+            
+            li{
+                a{
+                    text-decoration: none;
+                    color:#333333;
+                    font-size: 18px;
+                    white-space: nowrap;
+                    &:hover{
+                        color:#DC0155;
+                    }
+                }
+            }
+        }
+    }
+}

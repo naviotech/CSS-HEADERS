@@ -1,0 +1,150 @@
+main{
+    color: $negro;
+    .hero{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        .introduction{
+            p{
+                font-size: 22px;
+                margin-bottom: 8px;
+            }
+            h1{
+                span{
+                    color:#DC0155;
+                    font-family: $bebas;
+                    font-weight: normal;
+                }
+                font-size: 100px;
+                font-family: $bebas;
+                font-weight: normal;
+                line-height: 100px;
+                color:$negro;
+                margin-bottom: 18px;
+            }
+            .inside{
+                color:$negro;
+                font-size: 18px;
+                margin-bottom: 50px;
+            }
+            a{
+                text-decoration: none;
+                padding: 16px 26px;
+                border-radius: 32px;
+                background-color: #DC0155;
+                color:#F4F3F8;
+                font-size: 18px;
+                &:hover{
+                    background-color: #dc015583;
+                }
+            }
+        }
+        .woman{
+            position: relative;
+            figure{
+                img{
+                    width: 100%;
+                    filter: drop-shadow(150px 200px 150px #dc01555a);
+                }
+            }
+            .content__one{
+                width: 30%;
+                padding: 24px;
+                display: flex;
+                align-items: center;
+                gap:16px;
+                box-shadow: -6px 13px 20px 8px #0000002b;
+                position: absolute;
+                top:15%;
+                left: 2%;
+                z-index: 2;
+                background-color: white;
+                border-radius: 24px;
+                .image{
+                    padding: 8px;
+                    background-color: #DC0155;
+                    border-radius: 18px;
+                }
+                .contenido{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: start;
+                    
+                }
+            }
+            .content__two{
+                width: 45%;
+                padding: 24px;
+                display: flex;
+                align-items: center;
+                gap:16px;
+                box-shadow: 0px 19px 20px 6px #00000012;
+                position: absolute;
+                bottom: -3%;
+                right: 0%;
+                border-radius: 24px;
+                background-color: white;
+
+                .image{
+                    padding: 8px;
+                    background-color: #DC0155;
+                    border-radius: 18px;
+                }
+                .contenido{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: start;
+                    h3{
+                        white-space: nowrap;
+                    }
+                    
+                }
+            }
+            .content__three{
+                width: 30%;
+                padding: 24px;
+                display: flex;
+                align-items: center;
+                gap:16px;
+                box-shadow: 0px 12px 20px 0px #0000004f;
+                position: absolute;
+                top: 30%;
+                right: -10%;
+                border-radius: 24px;
+                background-color: white;
+                .image{
+                    padding: 8px;
+                    background-color: #DC0155;
+                    border-radius: 18px;
+                }
+                .contenido{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: start;
+                    
+                }
+            }
+            
+        }
+    }
+    .services{
+        width: 70%;
+        h2{
+            font-family: $bebas;
+            font-size: 40px;
+            margin-bottom: 45px;
+            font-weight: normal;
+        }
+        section{
+            display: flex;
+            article{
+                img{
+                    margin-bottom: 20px;
+                }
+                p{
+                    margin-top: 8px;
+                    color: #909090;
+                }
+            }
+        }
+    }
+}
