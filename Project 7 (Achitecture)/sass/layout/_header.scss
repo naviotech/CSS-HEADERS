@@ -1,0 +1,30 @@
+header{
+    margin-bottom: 7%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap:14%;
+    img{
+        float: left;
+    }
+    nav{
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            li{
+                a{
+                    white-space: nowrap;
+                    text-decoration: none;
+                    color: #424241a6;
+                    &:hover{
+                        color: black;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
