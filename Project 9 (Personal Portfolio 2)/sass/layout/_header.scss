@@ -1,0 +1,50 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 88px;
+    .primary{
+        ul{
+            display: flex;
+            list-style: none;
+            gap:30px;
+            li{
+                a{
+                    text-decoration: none;
+                    color:$negro;
+                    position: relative;
+                    &:hover{
+                        &:before{
+                            content:"";
+                            width: 70%;
+                            height: 2px;
+                            position: absolute;
+                            bottom: 0%;
+                            background-color: $verde;
+                            z-index: 2;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    a{
+        
+        img{
+            width: 80%;
+        }
+    }
+    .secondary{
+        display: flex;
+        gap: 50px;
+        a{
+            text-decoration: none;
+            color: $negro;
+            &:hover{
+                transform: scale(1.3);
+            }
+        }
+    }
+}

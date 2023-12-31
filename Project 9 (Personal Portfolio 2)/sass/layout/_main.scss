@@ -1,0 +1,155 @@
+main{
+    width: 100%;
+    .title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+        h1{
+            margin-left: auto;
+            margin-right: auto;
+            font-family: $oswald;
+            font-weight: normal;
+            font-size: 84px;
+            color: $negro;
+            position: relative;
+            &:before{
+                content:"";
+                width: 15%;
+                height: 6px;
+                position: absolute;
+                bottom: 0%;
+                background-color: $verde;
+                z-index: 2;
+            }
+        }
+    }
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        &__one{
+            width: 20%;
+            h2{
+                font-family: $oswald;
+                font-weight: normal;
+                color:$negro;
+            }
+            display: flex;
+            flex-direction: column;
+            article{
+                margin-top: 33px;
+                
+                div{
+                    margin-bottom: 32px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    .web{
+                        padding: 6px 12px;
+                    }
+                    img{
+                        width: 50px;
+                        padding: 6px;
+                        background-color: rgb(255, 255, 255);
+                        box-shadow: 1px 5px 12px 0px rgba(0, 0, 0, 0.454);
+                    }
+                    h3{
+                        font-family: $oswald;
+                        font-weight: normal;
+                        white-space: nowrap;
+                        
+                    }
+                }
+                p{
+                    color:$gris;
+                    width: 100%;
+                }
+            }
+        }
+        &__two{
+            min-width: 40%;
+            max-width: 479px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            div{
+                max-width: 479px;
+                padding: 12px;
+                border-top-right-radius:24px ;
+                border-top-left-radius:24px;
+                border: 2px solid $verde;
+                position: relative;
+                width: 100%;
+                height: 80%;
+                display: flex;
+                
+                div{
+                    background-color: $verde;
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        max-width: 475px;
+                        height: auto;
+                        position: absolute;
+                        bottom: 0%;
+                        left:0%;
+                    }
+                }
+            }
+        }
+        &__three{
+            width: 25%;
+            position: relative;
+            .intro{
+                margin-bottom: 70px;
+                h2{
+                    font-family: $oswald;
+                    font-weight: normal;
+                    color:$negro;
+                    margin-bottom: 32px;
+                }
+                p{
+                    color:$gris;
+                    margin-bottom: 32px;
+                    width: 80%;
+                }
+                .ultimo{
+                    margin-bottom: 60px;
+                }
+                a{
+                    padding: 10px 18px;
+                    color:white;
+                    background-color: $negro;
+                    text-decoration: none;
+                    &:hover{
+                        max-width: 37%;
+                        background-color: black;
+                        display: flex;
+                        transform: scale(1.2);
+                    }
+                }
+            }
+            .numbers{
+                display: flex;
+                position: absolute;
+                bottom: 0%;
+                gap:32px;
+                article{
+                    h3{
+                        font-size: 30px;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                        white-space: nowrap;
+                    }
+                    p{
+                        color:$gris;
+                    }
+                }
+                
+            }
+        }
+    }
+    
+}
